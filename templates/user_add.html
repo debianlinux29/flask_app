@@ -1,0 +1,14 @@
+{% extends "index.html" %}
+{% block content %}
+<form method=post>
+    <dl>
+        <dt>Username:
+        <dd><input type=text name=username value="">
+        <dt>Password:
+        <dd><input type=password name=password>
+        <dt>email:
+        <dd><input type=text name=email value="">
+    </dl>
+    <p><input type=submit value=add>
+</form>
+{% endblock %}
